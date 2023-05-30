@@ -43,4 +43,4 @@ Once the program has completed, you should see a new z1c2_out.csv file has been 
 
 
 
-7. We've followed these steps for z2c2-z6c2 to show more example outputs. Feel free to delete the output csv files and regenerate them using the entire image sets!
+7. We've followed these steps for z2c2-z6c2 to show more example outputs. However, feel free to delete the output csv files and regenerate them using the entire image sets!
