@@ -11,9 +11,9 @@
 
 ```git clone https://github.com/UhrigLab/twilight_length.git```
 
-4. Navigate to the repository
+4. Navigate to the repository PlantCV folder
 
-```cd twilight_length```
+```cd twilight_length/PlantCV```
 
 5. Install the requirements
 
