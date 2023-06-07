@@ -11,15 +11,15 @@
 
 ```git clone https://github.com/UhrigLab/twilight_length.git```
 
-4. Navigate to the repository
+4. Navigate to the repository PlantCV folder
 
-```cd twilight_length```
+```cd twilight_length/PlantCV```
 
 5. Install the requirements
 
 ```pip install -r requirements.txt```
 
-4. Look at the available job files in /jobs. Open up z1c2.json.
+6. Look at the available job files in /jobs. Open up z1c2.json.
 - Note that the paths in this file are configured for macos and linux systems, if on windows, adjust the following:
 ```    
 "input_image_dir": "images/z1c2",
@@ -33,9 +33,9 @@ to
 "output_csv_file": "out\\csv\\z1c2_out.csv",
 ```
 
-5. We've put one image in the image/z1c2 folder for this demo, but you can download the entire z1c2 image set from https://drive.google.com/drive/folders/1Ft5fDFBSBnfpqewFgEpj1uWKWl_qsgkB?usp=drive_link if you wish. Just add the other images to the same image/z1c2 folder!
+7. We've put one image in the image/z1c2 folder for this demo, but you can download the entire z1c2 image set from https://drive.google.com/drive/folders/1Ft5fDFBSBnfpqewFgEpj1uWKWl_qsgkB?usp=drive_link if you wish. Just add the other images to the same image/z1c2 folder!
 
-6. Run the job using the command:
+8. Run the job using the command:
 ```
 python run_job_multithreadv2.py jobs/z1c2.json
 ```
@@ -43,7 +43,7 @@ Once the program has completed, you should see a new z1c2_out.csv file has been 
 
 
 
-7. We've followed these steps for z2c2-z6c2 to show more example outputs. However, feel free to delete the output csv files and regenerate them using the entire image sets!
+9. We've followed these steps for z2c2-z6c2 to show more example outputs. However, feel free to delete the output csv files and regenerate them using the entire image sets!
 
 ---
 # Creating your own job files
