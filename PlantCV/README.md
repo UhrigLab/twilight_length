@@ -84,7 +84,9 @@ Since the images in this example are all taken when the lights are brightest, th
 
 ## Creating undistorted images
 
-Before we draw plant ROI's, we need to prepare the images. Running cell 11 will find all the images applicable to your job, undistort them, and correct their exposure (if applicable). It will then output a histogram from which you can check for outliers. Images that are too dark or too bright will be difficult to analyze. Run cell 12 to set a range from which images will be processed from. Judging by the histogram, all 13 images are good to go! ![histogram](/PlantCV/images/demo/histogram.png "histogram")
+Before we draw plant ROI's, we need to prepare the images. Running cell 11 will find all the images applicable to your job, undistort them, and correct their exposure (if applicable). It will then output a histogram from which you can check for outliers. Images that are too dark or too bright will be difficult to analyze. Run cell 12 to set a range from which images will be processed from. Judging by the histogram, all 13 images are good to go!
+
+![histogram](/PlantCV/images/demo/histogram.png "histogram")
 
 ## Thresholding
 
